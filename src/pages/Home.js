@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../logo.svg';
 import "../App.css";
+import { Link } from "react-router-dom";
+
 
 export default function Home () {
     return (
@@ -18,6 +20,7 @@ export default function Home () {
           >
             Learn React
           </a>
+          <Link to='/about'>About</Link>
         </header>
         <div
           id="consent_blackbar"
